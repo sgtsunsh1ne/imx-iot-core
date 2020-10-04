@@ -226,6 +226,24 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imx-vpu-hantro-g1", "..\..\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imxUcmTcpciCxClient", "..\..\..\driver\usb\imxUcmTcpciCxClient\imxUcmTcpciCxClient.vcxproj", "{2BE4D87B-CC81-43AB-8A6D-E3A90161A1E7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildTools", "BuildTools", "{E8006960-EBE3-4CE7-83FF-7718D44F04DB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\tools\blank.dts = ..\..\tools\blank.dts
+		..\..\tools\BuildBSP.bat = ..\..\tools\BuildBSP.bat
+		..\..\tools\BuildImage.bat = ..\..\tools\BuildImage.bat
+		..\..\tools\make-winpe-i.MX6-Qx.cmd = ..\..\tools\make-winpe-i.MX6-Qx.cmd
+		..\..\tools\make-winpe-i.MX8-MN.cmd = ..\..\tools\make-winpe-i.MX8-MN.cmd
+		..\..\tools\make-winpe-i.MX8.cmd = ..\..\tools\make-winpe-i.MX8.cmd
+		..\..\tools\make-winpe.cmd = ..\..\tools\make-winpe.cmd
+		..\..\tools\NewiMX6Board.ps1 = ..\..\tools\NewiMX6Board.ps1
+		..\..\tools\provision.py = ..\..\tools\provision.py
+		..\..\tools\ResetCaseSensitivity.ps1 = ..\..\tools\ResetCaseSensitivity.ps1
+		..\..\tools\SetupBuildEnv.bat = ..\..\tools\SetupBuildEnv.bat
+		..\..\tools\SetupCertificate.bat = ..\..\tools\SetupCertificate.bat
+		..\..\tools\StartBuildEnv.bat = ..\..\tools\StartBuildEnv.bat
+		..\..\tools\TestDriver.wm.xml = ..\..\tools\TestDriver.wm.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
