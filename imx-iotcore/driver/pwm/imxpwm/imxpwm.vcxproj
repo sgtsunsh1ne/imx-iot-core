@@ -92,6 +92,7 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <ApiValidator_Enable>false</ApiValidator_Enable>
     <IncludePath>$(ProjectDir)..\..\include;$(IncludePath)</IncludePath>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
@@ -104,6 +105,7 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <ApiValidator_Enable>false</ApiValidator_Enable>
     <IncludePath>$(ProjectDir)..\..\include;$(IncludePath)</IncludePath>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>

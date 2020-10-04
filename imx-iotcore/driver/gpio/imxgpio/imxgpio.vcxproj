@@ -94,6 +94,7 @@
     <IncludePath>$(ProjectDir)\..\..\include;$(IncludePath)</IncludePath>
     <ApiValidator_Enable>false</ApiValidator_Enable>
     <IntDir>$(Platform)\$(ConfigurationName)\</IntDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <IncludePath>$(ProjectDir)\..\..\include;$(IncludePath)</IncludePath>
@@ -104,6 +105,7 @@
     <IncludePath>$(ProjectDir)\..\..\include;$(IncludePath)</IncludePath>
     <ApiValidator_Enable>false</ApiValidator_Enable>
     <IntDir>$(Platform)\$(ConfigurationName)\</IntDir>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>

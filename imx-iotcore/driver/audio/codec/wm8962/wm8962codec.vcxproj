@@ -86,6 +86,7 @@
     <DebuggerFlavor>DbgengRemoteDebugger</DebuggerFlavor>
     <EnableInf2cat>false</EnableInf2cat>
     <Inf2CatNoCatalog>false</Inf2CatNoCatalog>
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <DebuggerFlavor>DbgengRemoteDebugger</DebuggerFlavor>
