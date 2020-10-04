@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+imx-iotcore/build/solution/iMXPlatform/.vs/
